@@ -3,7 +3,7 @@ name: Deploy and Build/Run App on Remote Server
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
