@@ -16,4 +16,4 @@ kill:
 build:
 	docker build -t ai-model .
 run-bg:
-	docker run -p 8000:8000 -d ai-model
+	docker run -p 8000:8000 -d --name ai-model ai-model
