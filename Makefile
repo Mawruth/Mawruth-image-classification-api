@@ -11,7 +11,8 @@ install-requirements:
 
 run:
 	uvicorn main:app --host 0.0.0.0 --port 8000
-
+kill:
+	docker container rm -f ai-model
 build:
 	docker build -t ai-model .
 run-bg:
